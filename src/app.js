@@ -17,15 +17,15 @@ class App extends Component{
 render(){
   return (
   // <Statistics title="Upload stats" stats={statisticalData} />
-  <Profile
-  name={user.name}
-  tag={user.tag}
-  location={user.location}
-  avatar={user.avatar}
-  stats={user.stats}
-  />
+  // <Profile
+  // name={user.name}
+  // tag={user.tag}
+  // location={user.location}
+  // avatar={user.avatar}
+  // stats={user.stats}
+  // />
   // <FriendList friends={friends} />
-  // <TransactionHistory items={transactions} />
+  <TransactionHistory items={transactions} />
   );
 }
 }

@@ -2,13 +2,13 @@ thead{
   background-color: aqua;
 }
 thead tr th{
-  width: 100px;
-  height: 50px;
+  width: 300px;
+  height: 60px;
 }
 tbody tr td{
   text-align: center;
   color: black;
-  width: 100px;
-  height: 50px;
+  width: 300px;
+  height: 60px;
   background-color: white;
 }
