@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import css from './statistics.css';
 class Statistics extends Component {
   render() {
 
     const obj = this.props.stats.map((stat, i) => {
       return (
-        <li class="item">
+      <li class="item">
         <span class="label">{stat.label}</span>
-        <span class="percentage">{stat.percentage}</span>
+        <span class="percentage">{stat.percentage}%</span>
       </li>
       );
     });

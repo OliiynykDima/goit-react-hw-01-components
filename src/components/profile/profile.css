@@ -1,0 +1,17 @@
+.profile{
+  width: 300px;
+  height: 700px;
+  background-color: thistle;
+}
+.description{
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+}
+.avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
