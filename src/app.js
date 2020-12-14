@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import css from './css/index.css';
+
 import statisticalData from './data-bases/statistical-data.json';
 import user from './data-bases/user.json';
 import friends from './data-bases/friends.json';
@@ -22,8 +24,8 @@ render(){
   // avatar={user.avatar}
   // stats={user.stats}
   // />
-  // <FriendList friends={friends} />
-  <TransactionHistory items={transactions} />
+  <FriendList friends={friends} />
+  // <TransactionHistory items={transactions} />
   );
 }
 }

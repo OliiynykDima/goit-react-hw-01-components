@@ -1,0 +1,14 @@
+thead{
+  background-color: aqua;
+}
+thead tr th{
+  width: 100px;
+  height: 50px;
+}
+tbody tr td{
+  text-align: center;
+  color: black;
+  width: 100px;
+  height: 50px;
+  background-color: white;
+}

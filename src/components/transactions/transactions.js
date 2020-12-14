@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+import css from './transactions.css';
 class TransactionHistory extends Component {
   render() {
 
