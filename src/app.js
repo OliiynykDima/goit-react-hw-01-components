@@ -16,18 +16,38 @@ import TransactionHistory from './components/transactions/transactions.js';
 class App extends Component{
 render(){
   return (
-  // <Statistics title="Upload stats" stats={statisticalData} />
-  // <Profile
-  // name={user.name}
-  // tag={user.tag}
-  // location={user.location}
-  // avatar={user.avatar}
-  // stats={user.stats}
-  // />
-  // <FriendList friends={friends} />
-  <TransactionHistory items={transactions} />
+  <Statistics title="Upload stats" stats={statisticalData} />
   );
 }
 }
-
+class App2 extends Component{
+  render(){
+    return (
+    <Profile
+    name={user.name}
+    tag={user.tag}
+    location={user.location}
+    avatar={user.avatar}
+    stats={user.stats}
+    />
+    );
+  }
+  }
+class App3 extends Component{
+    render(){
+      return (
+      <FriendList friends={friends} />
+      );
+  }
+}
+class App4 extends Component{
+  render(){
+    return (
+    <TransactionHistory items={transactions} />
+    );
+  }
+  }
 ReactDOM.render(React.createElement(App), document.getElementById('account'));
+ReactDOM.render(React.createElement(App2), document.getElementById('account2'));
+ReactDOM.render(React.createElement(App3), document.getElementById('account3'));
+ReactDOM.render(React.createElement(App4), document.getElementById('account4'));
